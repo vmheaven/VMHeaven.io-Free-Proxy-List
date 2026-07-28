@@ -33,23 +33,51 @@ Follow the instructions below to download the proxy lists.
 
 #### HTTP
 ```bash
-curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/http.txt  -o http.txt
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/http.txt -o http.txt
 ```
 
 #### HTTPS
 ```bash
-curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/https.txt  -o https.txt
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/https.txt -o https.txt
 ```
 
 #### SOCKS4
 ```bash
-curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/socks4.txt  -o socks4.txt
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/socks4.txt -o socks4.txt
 ```
 
 #### SOCKS5
 ```bash
-curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/socks5.txt  -o socks5.txt
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/socks5.txt -o socks5.txt
 ```
+
+### Download by Country
+
+Country-based lists follow the pattern `Country/{COUNTRY_CODE}/{type}.txt`.
+Just replace `US` with the country code you need (e.g. `DE`, `GB`, `FR`, `NL`).
+
+#### HTTP
+```bash
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/Country/US/http.txt -o us-http.txt
+```
+
+#### HTTPS
+```bash
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/Country/US/https.txt -o us-https.txt
+```
+
+#### SOCKS4
+```bash
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/Country/US/socks4.txt -o us-socks4.txt
+```
+
+#### SOCKS5
+```bash
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/Country/US/socks5.txt -o us-socks5.txt
+```
+
+> 💡 **Tip:** To use a different country, just swap the country code in the path. Example for Germany:
+> `.../Country/DE/https.txt`
 
 ## 📣 Stay Updated
 
