@@ -51,6 +51,15 @@ curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/
 curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/socks5.txt -o socks5.txt
 ```
 
+#### TLS
+Proxies that speak TLS themselves, confirmed by at least three test servers. Connect to them
+with TLS, for example `curl -x https://IP:PORT --proxy-insecure https://example.com`.
+They usually use self-signed certificates, so the connection to the proxy is encrypted but
+does not prove who runs it.
+```bash
+curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/tls.txt -o tls.txt
+```
+
 ### Verified Lists
 
 Want fewer but more reliable proxies? The `verified/` folder only contains proxies
