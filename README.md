@@ -5,8 +5,8 @@ Welcome to **VMHeaven.io Free Proxy List**, a repository dedicated to providing 
 ## 🚀 Why Choose Fresh Proxy List?
 
 - **Frequent Updates**: Lists are rebuilt every 15 minutes from independent test servers.
-- **Reliable Sources**: Only verified and functional proxies.
-- **Verified Sources:** We exclude AWS & Amazon and other proxy honeypots.
+- **Tested Lists**: Every entry passed a live check on at least one of our test servers in its latest run. Use `verified/` for entries confirmed by several servers.
+- **Filtered Networks:** AWS, Akamai and Cloudflare address ranges are excluded.
 - **Community-Driven**: Star 🌟 this repo and join the growing community supporting open-access proxy resources.
 - **Optimized for Developers**: Easily integrate with your tools and workflows.
 
@@ -20,10 +20,14 @@ If you find this project helpful:
 ## 💡 Features
 
 - **Free Proxy List**: Access to HTTP, HTTPS, SOCKS4, and SOCKS5 proxies for various use cases.
-- **Fast Proxy Servers**: Ideal for web scraping, bypassing geo-blocks, or online anonymity.
+- **Many Uses**: Useful for web scraping, testing and checking geo-restricted content.
 - **Geolocation Support**: Choose proxies by country, see below.
-- **API Access**: Fetch proxies programmatically with our upcoming API.
-- **High Speed**: Regular tests ensure you only use the fastest proxies.
+
+## ⚠️ What to Expect
+
+Public proxies are unstable and are run by strangers. In spot checks from an outside server in November 2026, a single try succeeded for about 20-40 % of the entries in the main lists, about 25-55 % in `verified/` and about 97 % in `tls.txt`, so try several entries and expect failures.
+
+Whoever runs a proxy can read and change unencrypted traffic. Use HTTPS, and do not send passwords or personal data through these proxies.
 
 ## 🛠 How to Use
 
@@ -103,12 +107,12 @@ curl -sL https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/
 
 ## 📣 Stay Updated
 
-- **Join Discussions**: Share your ideas, use cases, or challenges.
+- **Open an Issue**: Share your ideas, use cases, or challenges.
 - **Follow Updates**: Keep an eye on upcoming features and enhancements.
 
 ### ⭐ Don't forget to star this repo to show your support and encourage development!
 
-[![Star this repo](https://github.com/vmheaven/VMHeaven.io-Free-Proxy-List/stargazers)]
+[⭐ Star this repo](https://github.com/vmheaven/VMHeaven.io-Free-Proxy-List/stargazers)
 
 ## 🏆 Contributors
 
