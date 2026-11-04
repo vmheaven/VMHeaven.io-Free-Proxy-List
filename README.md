@@ -27,6 +27,8 @@ If you find this project helpful:
 
 Public proxies are unstable and are run by strangers. In spot checks from an outside server in November 2026, a single try succeeded for about 25-50 % of the entries in the main lists, about 25-60 % in `verified/` and about 97 % in `tls.txt`, so try several entries and expect failures.
 
+Our test servers also fetch a test page of their own through HTTP and SOCKS proxies and drop those caught changing it, for example by injecting scripts. This only catches what shows up during the test and many proxies do not answer it at all, so it does not make a listed proxy trustworthy.
+
 Whoever runs a proxy can read and change unencrypted traffic. Use HTTPS, and do not send passwords or personal data through these proxies.
 
 ## 🛠 How to Use
